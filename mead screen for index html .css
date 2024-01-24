@@ -1,0 +1,161 @@
+@media screen and (max-width: 84rem) {
+    html{
+        font-size: 55%;
+    }
+}
+@media screen and (max-width: 78rem) {
+    html{
+        font-size: 55%;
+    }
+}
+@media screen and (max-width: 74rem) {
+    html{
+        font-size: 50%;
+    }
+}
+@media screen and (max-width: 64rem) {
+    html{
+        font-size: 45%;
+    }
+}
+
+
+@media screen and (max-width: 40rem) {
+    .formobilenavbar{
+        display: block;
+        display: flex;
+        position: fixed;
+        z-index: 2;
+    }
+    .moreIconForMobile{
+        display: block;
+        position: fixed;
+        margin-top: 5.5rem;
+        
+    }
+
+
+    .navbarMainDiv{
+        flex-direction: column; 
+        left: 0;
+        width: 66%;
+        height: 50rem;
+        margin-left: -78%;
+        transition: 1s;
+        border-radius: 1rem;
+        margin-top: 5rem;
+        z-index: 1;
+
+    }
+    .navItemMainDIv{
+        flex-direction: column;
+    }
+    .forbpiIconDiv{
+        display: none;
+    }
+    .namitem_upperdiv{
+        width: 100%;
+    }
+    .navItemsDiv{
+        margin-left: -1%;
+        border-style: none;
+    }
+    .namitem_upperdiv{
+        height: 5rem;
+        margin-top: 1%;
+    }
+    .moreiconMain_div{
+        margin-bottom: 4rem;
+    }
+    .AboutMainDiv{
+        width: 80%;
+        height: 28rem;
+        margin-left: 12.5%;
+    }
+    .abooutItems_2div{
+        margin-top: -3rem;
+    }
+    .about_1stDiv_items{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .closeDivClick{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .sliderDiv{
+        height: 15rem;
+        width: 90%;
+    }
+    .logoTextFlex img{
+        height: 5rem;
+        width: 5rem;
+        margin-left: -1rem;
+    }
+    .logoTextFlex h2{
+        font-size: 2.5rem;
+        margin-left: -2rem;
+    }
+    .sliderMAinDIv_blur{
+        height: 24rem;
+    }
+    .none_effect{
+        font-size: 1.5rem;
+    }
+    /*department*/
+    .department_mainDiv{
+        width: 85%;
+        height: 28%;
+        margin-left: 7.5%;
+    }
+    .department_2div_flex{
+        margin-top: -3rem;
+    }
+    .closeDivClick2_department{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 4;
+    }
+    .contact_MAinDiv{
+        margin-left: 15%;
+        width: 70%;
+    }
+    .closeContact{
+        height: 2.5rem;
+        width: 100%;
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: bold;
+        border-top: .1rem solid rgb(36, 35, 35);
+        display: block;
+    }
+    
+    /* gallery start */
+    .gallery_mainDiv{
+        margin-left: 15%;
+        width: 70%;
+    }
+    .closeGallery{
+        height: 2.5rem;
+        width: 100%;
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: bold;
+        border-top: .1rem solid rgb(36, 35, 35);
+        display: block;
+    }
+    /* maps  */
+    .iframeMaps{
+        width: 90%;
+        height: 40%;
+        z-index: -3;  
+    }
+    .closeMaps{
+        margin: -31% -78% 0% 0%;
+    }
+}

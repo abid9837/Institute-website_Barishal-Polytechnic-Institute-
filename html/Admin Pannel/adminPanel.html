@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPI ( about institute )</title>
+    <link rel="icon" href="../../images/government-bangladesh-logo.png">
+    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="../../mead screen for index html .css">
+    <link rel="stylesheet" href="../../css/news media screen.css">
+    <link rel="stylesheet" href="../about institute/about all .css">
+    <link rel="stylesheet" href="../Admin Pannel/adminpannel.css">
+
+
+
+
+</head>
+<body>
+
+
+
+    
+<!-- body div --><div class="mainBodyDiv">
+
+<!--    Start coding      -->
+
+<!--mobile styling-->
+<!--mobile nav-->
+<div class="formobilenavbar">
+    <img src="../../images/bpi.jpg" alt="">
+    <h3>Barishal Polytechnic Institute</h3>
+</div>
+
+
+<!--mobile styling  END  -->
+
+
+    <div class="navbarMainDiv">
+        <a href="../index.html">
+            <div class="forbpiIconDiv">
+                <img src="../../images/bpi.jpg" alt="">
+            </div>
+        </a>
+
+        <div class="nav_text_header_div">
+            <h4>Barishal Polytechnic Institute ( Admin Panne )</h4>
+        </div>
+        
+    </div>
+
+
+
+
+
+<!--  admin pannel start all functiuon   -->
+
+<div class="Admin_pannel_Desing_Main_div_body">
+    <div class="admin_left_right_in_out_display_main_div">
+        <div class="admin_pannel_leftrIGHT_DIV admin_pannel_LEFT_DIV">
+            <div class="admin_panle_Div_items__div_left_right">
+                <!---->
+                <div class="adminpannel_div_items adminpannel_div_items1">
+                    <h4>Student's</h4>
+                    <div class="adminpannel_div_items_1_hover_to_zIndex_div">
+                        <div class="students_divS_main add_new_student"><p>Add new Student</p></div>
+                        <div class="students_divS_main"><p>Show Studen's List</p></div>
+                        <div class="students_divS_main"><p>Update Student</p></div>
+                    </div>
+                    
+                </div>
+                <!---->
+                <div class="adminpannel_div_items adminpannel_div_items_Notice">
+                    <h4>Notice</h4>
+                    <div class="adminpannel_div_items_hover_to_zIndex_div_Notice">
+                        <div class="students_divS_main"><p>Update Notice</p></div>
+                        <div class="students_divS_main"><p>Edit Notice</p></div>
+                        <div class="students_divS_main"><p>Delete Notice</p></div>
+                    </div>
+                </div>
+                <!---->
+                <div class="adminpannel_div_items">
+                    <h4>..........</h4>
+
+                </div>
+            </div>
+            <!---->
+            <div class="admin_panle_Div_items__div_left_right">
+                <div class="adminpannel_div_items adminpannel_div_items_TEACHERS">
+                    <h4>Teacher's</h4>
+                    <div class="adminpannel_div_items_hover_to_zIndex_div_TEACHERS">
+                        <div class="students_divS_main"><p>Add new Teacher</p></div>
+                        <div class="students_divS_main"><p>Show teacher's List</p></div>
+                        <div class="students_divS_main"><p>Update Teacher</p></div>
+                    </div>
+                </div>
+                <!---->
+                <div class="adminpannel_div_items adminpannel_div_items_ATTENDENCE">
+                    <h4>attendance</h4>
+                    <div class="adminpannel_div_items_hover_to_zIndex_div_ATTENDENCE">
+                        <div class="students_divS_main"><p>Make an Attendence</p></div>
+                        
+                    </div>
+                </div>
+                <!---->
+                <div class="adminpannel_div_items">
+                    <h4>..........</h4>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!---->
+        <div class="admin_pannel_leftrIGHT_DIV admin_pannel_Right_DIV"> 
+            <h3 class="welcoome_text_h4">Welcome to Admin Pannel</h3>
+            <!--add new Student start-->
+            <div class="addNewStudent_Output_mainDiv" style="display: none;">
+                    <!---->
+                    <div class="addStudent_titel_div">
+                        <h4>Add New Student</h4>
+                    </div>
+                    <!-- form start -->
+                    <div class="addnewStudent_form_div">
+                        <form action="./php/add Student.php" method="post">
+                            <!-- Students name -->
+                            <div class="student_name_input_div">
+                                <div class="student_name_input_div_left_text_div">
+                                    <p>Full Name</p>
+                                </div>
+                                <!---->
+                                <input type="text" name="student_name" >
+                            </div>
+                            <!-- fathers name -->
+                            <div class="student_name_input_div">
+                                <div class="student_name_input_div_left_text_div">
+                                    <p>Father's  Name</p>
+                                </div>
+                                <!---->
+                                <input type="text" name="Father_name">
+                            </div>
+                            <!-- Mother's name -->
+                            <div class="student_name_input_div" >
+                                <div class="student_name_input_div_left_text_div">
+                                    <p>Mother's  Name</p>
+                                </div>
+                                <!---->
+                                <input type="text" name="Mother_name" >
+                            </div>
+                            <!-- Roll -->
+                            <div class="student_name_input_div">
+                                <div class="student_name_input_div_left_text_div">
+                                    <p>Roll Number</p>
+                                </div>
+                                <!---->
+                                <input type="number" name="Roll_number" >
+                            </div>
+                            <!-- registration -->
+                            <div class="student_name_input_div">
+                                <div class="student_name_input_div_left_text_div">
+                                    <p>registration</p>
+                                </div>
+                                <!---->
+                                <input type="number" name="registration_number" >
+                            </div>
+                            <!-- department -->
+                            <div class="student_name_input_div">
+                                <div class="student_name_input_div_left_text_div">
+                                    <p>Department</p>
+                                </div>
+                                <!---->
+                                <select name="Department" id="cars">
+                                    <option value="Computer">Computer</option>
+                                    <option value="Civil">Civil</option>
+                                    <option value="Electrical">Electrical</option>
+                                    <option value="Electronics">Electronics</option>
+                                    <option value="Electromedical">Electromedical</option>
+                                    <option value="Mechanical">Mechanical</option>
+                                    <option value="tourism and hospitality">tourism and hospitality</option>
+                                    <option value="Power">Power</option>
+                                </select>
+                            </div>
+                            <!-- Current Location -->
+                            <div class="student_name_input_div">
+                                <div class="student_name_input_div_left_text_div">
+                                    <p>Address</p>
+                                </div>
+                                <!---->
+                                <input type="text" name="Address" >
+                            </div>
+                            <!-- Mobile Number -->
+                            <div class="student_name_input_div">
+                                <div class="student_name_input_div_left_text_div">
+                                    <p>Mobile Number</p>
+                                </div>
+                                <!---->
+                                <input type="text" name="Mobile_number" >
+                            </div>
+                            <!-- Email -->
+                            <div class="student_name_input_div">
+                                <div class="student_name_input_div_left_text_div">
+                                    <p>E-Mail</p>
+                                </div>
+                                <!---->
+                                <input type="email" name="S_E_mail" >
+                            </div>
+
+
+
+
+                            <div class="form_next_Buttons_MAIN_DIV">
+                                <input type="reset">
+                                <input type="Submit">
+                                
+                            </div>
+
+                        </form>
+
+                    </div>
+
+
+                    
+                    <!-- form end -->
+
+
+
+            </div>
+            
+                <!---->
+        </div>
+            <!--add new Student end-->
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<script src="./admin pannel .js"></script>
+<script src="../../for drop-down menu.js"></script>
+<script src="../../js/2nd js file.js"></script>
+<script src="../../js/index.js"></script>
+
+
+</body>
+</html>

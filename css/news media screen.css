@@ -1,0 +1,84 @@
+@media screen and (max-width: 40rem){
+    .news_mainDiv{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .Main_News_div{
+        width: 100%;
+        height: auto;
+        
+    }
+    .shekhhasina_Leftdiv{
+        width: 90%;
+    }
+    .noticeboard_center{
+        width: 90%;
+    }
+    .kormokorta_kormocari_div_center{
+        width: 90%;
+        flex-direction: column;
+    }
+    .kormokorta_kormocari_div_center_2flex_div{
+        width: 100%;
+    }
+    .kormokorta_kormocari_div_items_div{
+        height: 22rem;
+    }
+    .videoandmap_2DIV_main_div{
+        flex-direction: column;
+    }
+    .VIdeo_and_map_center_div{
+        width: 90%;
+    }
+    .videoand_map_DIV{
+        width: 100%;
+        margin-top: 1.8rem;
+    }
+    .VIDEOANDMAP_MAINDIV{
+        padding-bottom: 5rem;
+        height: 55rem;
+    }
+
+
+
+    /*gap*/
+
+
+
+    .common_news_div{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .principle_mainDiv{
+        width: 100%;
+        margin-top: 5rem;
+    }
+    .noticeitmes{
+        width: 100%;
+    }
+    .noticeboard{
+        width: 100%;
+    }
+    .noticeitmes p{
+        margin-left: 2rem;
+    }
+    .allcommonNEWS_DIV{
+        width: 90%;
+    }
+    .principle_mainDiv img{
+        width: 90%;
+    }
+    .national_anthem_div audio{
+        width: 95%;
+        margin-left: 1rem;
+        padding-bottom: 1.5rem;
+    }
+    .jururi_hotLine div{
+        width: 90%;
+    }
+    .hotline_imag_div img{
+        width: 90%;
+    }
+}
+

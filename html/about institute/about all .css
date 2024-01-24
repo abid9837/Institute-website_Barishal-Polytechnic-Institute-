@@ -1,0 +1,143 @@
+.about_commonDiv_main{
+    width: 85%;
+    height: auto;
+    background-color: rgb(210, 209, 209);
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: box-shadow .3s ease-in;
+
+}
+.about_commonDiv_main:hover{
+    box-shadow: .3rem .3rem 1rem rgb(85, 85, 85);
+}
+.about_common_div_header_div{
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(187, 187, 187);
+    display: flex;
+    align-items: center;
+    border-radius: .5rem .5rem 0rem 0rem;
+}
+.about_common_div_header_div h4{
+    font-size: 1.8rem;
+    margin-left: 4%;
+    color: rgb(90, 90, 90);
+}
+.about_common_p_div{
+    width: 95%;
+    height: 100%;
+
+}
+.about_common_p_div p{
+    text-align: justify;
+    font-size: 1.5rem;
+    color: rgb(90, 90, 90);
+    line-height: 2.3rem;
+}
+.about_common_bottom_div{
+    width: 100%;
+    height: 3rem;
+
+    border-radius: 0rem 0rem .5rem .5rem;
+}
+
+
+/*   mission and vision    */
+.missionVision_mainDiv{
+    width: 85%;
+    height: auto;
+    background-color:rgb(201, 201, 201);
+    border-radius: .5rem;
+    overflow: hidden;
+    padding-bottom: 3rem;
+    transition: box-shadow .4s ease-in-out;
+
+}
+.missionVision_mainDiv:hover{
+    box-shadow: .3rem .3rem 1rem rgb(70, 70, 70);
+}
+.misson_header{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding: .8rem;
+}
+.misson_header h4{
+    font-size: 1.9rem;
+    margin-left: 5%;
+    color: rgb(92, 92, 92);
+    
+}
+.Mission_header_p_text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Mission_header_p_text_div {
+    width: 85%;
+
+}
+.Mission_header_p_text_div P{
+    text-align: justify;
+    font-size: 1.7rem;
+    color: rgb(105, 105, 105);
+}
+
+
+
+
+@media screen and (max-width: 40rem){
+    .about_common_p_div img{
+        width: 100%;
+    }
+    .about_commonDiv_main{
+        width: 90%;
+    }
+    .missionVision_mainDiv{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

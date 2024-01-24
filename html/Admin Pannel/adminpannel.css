@@ -1,0 +1,415 @@
+
+
+
+
+.navbarMainDiv{
+    background-color: rgb(146, 146, 146);
+    box-shadow: .3rem .3rem 1rem rgb(92, 92, 92);
+}
+.navItemMainDIv{
+    display: none;
+}
+.moreiconMain_div{
+    background-color: rgb(146, 146, 146);
+}
+
+.forbpiIconDiv{
+    box-shadow: none;
+    margin-left: 5rem;
+}
+.nav_text_header_div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_text_header_div h4{
+    font-size: 2.4rem;
+    letter-spacing: .1rem;
+    color: rgb(101, 101, 101);
+}
+
+
+
+.Admin_pannel_Desing_Main_div_body{
+    width: 100%;
+    height: 85rem;
+    background-color: rgb(173, 173, 173);
+    position: absolute;
+    margin-top: 4.5rem;
+}
+.admin_left_right_in_out_display_main_div{
+    width: 100%;
+    display: flex;
+}
+.admin_pannel_leftrIGHT_DIV{
+    width: 62%;
+    height: 60rem;
+    margin: .5%;
+    background-color: rgb(173, 173, 173);
+    margin-top: 4%;
+    border-radius: .7rem;
+    box-shadow: .2rem .2rem .7rem rgb(100, 100, 100);
+}
+.admin_pannel_LEFT_DIV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38%;
+    border-radius: .7rem;
+    position: fixed;
+    overflow: hidden;
+    background-color: rgb(146, 146, 146);
+}
+.admin_panle_Div_items__div_left_right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(146, 146, 146);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.adminpannel_div_items{
+    width: 80%;
+    height: 25%;
+    background: rgb(139, 139, 139);
+    margin: auto;
+    border-radius: .7rem;
+    transition: box-shadow .3s ease-in;
+    cursor: pointer;
+    box-shadow: -.2rem -.2rem .6rem rgb(110, 110, 110);
+}
+.adminpannel_div_items h4{
+    text-align: center;
+    margin-top: 26%;
+    font-size: 2.5rem;
+    color: rgb(87, 87, 87);
+    transition: color .3s ease-out;
+}
+.adminpannel_div_items:hover{
+    box-shadow: .3rem .3rem .8rem rgb(82, 82, 82);
+}
+.adminpannel_div_items:hover h4{
+    color: rgb(90, 90, 90);
+}
+.adminpannel_div_items_1_hover_to_zIndex_div{
+    width: 120%;
+    height: 100%;
+    background-color: rgb(132, 132, 132);
+    border-radius: .7rem;
+    margin-left: 101%;
+    margin-top: -53%;
+    position: relative;
+    transition: box-shadow .3s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: -3;
+    
+
+    
+}
+.adminpannel_div_items_1_hover_to_zIndex_div:hover{
+    box-shadow: .3rem .3rem .8rem rgb(67, 67, 67);
+}
+
+.adminpannel_div_items1:hover .adminpannel_div_items_1_hover_to_zIndex_div{
+    z-index: 3;
+    
+}
+.students_divS_main{
+    width: 98%;
+    height: 30%;
+    background-color: rgb(117, 117, 117);
+    margin: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .6rem;
+    transition: background-color .3s ease-in;
+}
+.students_divS_main:hover{
+    background-color: rgb(123, 123, 123);
+}
+.students_divS_main:hover p{
+    color: rgb(50, 50, 50);
+    font-size: 1.8rem;
+    transition: color .3s ease-out;
+
+}
+.students_divS_main p{
+    font-size: 1.6rem;
+    color: rgb(68, 68, 68);
+}
+
+
+/**/
+.adminpannel_div_items_hover_to_zIndex_div_TEACHERS{
+    width: 120%;
+    height: 100%;
+    background-color: rgb(132, 132, 132);
+    border-radius: .7rem;
+    margin-left: -121%;
+    margin-top: -53%;
+    position: relative;
+    transition: box-shadow .3s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: -3;
+
+}
+.adminpannel_div_items_TEACHERS:hover .adminpannel_div_items_hover_to_zIndex_div_TEACHERS{
+    z-index: 3;
+}
+
+/**/
+.adminpannel_div_items_hover_to_zIndex_div_Notice{
+    width: 120%;
+    height: 100%;
+    background-color: rgb(132, 132, 132);
+    border-radius: .7rem;
+    margin-left: 101%;
+    margin-top: -53%;
+    position: relative;
+    transition: box-shadow .3s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: -3;
+}
+.adminpannel_div_items_Notice:hover .adminpannel_div_items_hover_to_zIndex_div_Notice{
+    z-index: 3;
+}
+
+
+/**/
+.adminpannel_div_items_hover_to_zIndex_div_ATTENDENCE{
+    width: 120%;
+    height: 100%;
+    background-color: rgb(132, 132, 132);
+    border-radius: .7rem;
+    margin-left: -121%;
+    margin-top: -53%;
+    position: relative;
+    transition: box-shadow .3s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: -3;
+}
+
+.adminpannel_div_items_ATTENDENCE:hover .adminpannel_div_items_hover_to_zIndex_div_ATTENDENCE{
+    z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*     */
+
+
+
+
+
+.admin_pannel_Right_DIV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(106, 106, 106);
+    margin-left: 39%;
+    height: 60rem;
+    border-radius: 1rem;
+    overflow: scroll;
+    position: fixed;
+    
+    
+}
+.admin_pannel_Right_DIV h3{
+    font-size: 3rem;
+}
+
+
+.addNewStudent_Output_mainDiv{
+    width: 100%;
+    height: 100%;
+    
+}
+.addStudent_titel_div{
+    width: 100%;
+    height: 4rem;
+
+    background-color: rgb(133, 133, 133);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.addStudent_titel_div h4{
+    font-size: 1.8rem;
+    color: rgb(98, 98, 98);
+    border-radius: 1rem 1rem 0rem 0rem;
+
+}
+.addnewStudent_form_div{
+    height: 100%;
+    width: 100%;
+
+}
+.addnewStudent_form_div form{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(146, 146, 146);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0rem 0rem 1rem 1rem;
+
+}
+.student_name_input_div{
+    width: 70%;
+    height: 4rem;
+    background-color: rgb(128, 128, 128);
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: .1rem .1rem .5rem rgb(116, 116, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
+.student_name_input_div:hover{
+    box-shadow: .3rem .3rem .5rem rgb(95, 95, 95);
+
+}
+.student_name_input_div_left_text_div{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(134, 134, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.student_name_input_div_left_text_div p{
+    font-size: 1.8rem;
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+}
+
+.student_name_input_div input{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(155, 155, 155);
+    border: none;
+    outline: none;
+    padding: 2rem;
+    font-size: 1.6rem;
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+}
+.student_name_input_div select{
+   width: 77%;
+   height: 100%;
+   background-color: rgb(155, 155, 155);
+   font-size: 1.6rem;
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding-left: 2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+.form_next_Buttons_MAIN_DIV{
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+.form_next_Buttons_MAIN_DIV input{
+    width: 15%;
+    height: 100%;
+    margin: 2%;
+    border-radius: .7rem;
+    background-color: rgb(139, 139, 139);
+    border: none;
+    box-shadow: -.3rem -.3rem .7rem rgb(118, 118, 118);
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: rgb(72, 71, 71);
+}
+.form_next_Buttons_MAIN_DIV input:hover{
+    box-shadow: .3rem .3rem .7rem rgb(118, 118, 118);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

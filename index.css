@@ -1,0 +1,1148 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+/* body div */
+.mainBodyDiv{
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 255, 255);
+}
+/* mobile Style something main */
+.formobilenavbar{
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(43, 43, 43);
+    display: none;
+    justify-content: left;
+    align-items: center;
+
+}
+.formobilenavbar img {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 10rem;
+    margin-left: 3%;
+}
+.formobilenavbar h3{
+    font-size: 2rem;
+    color: rgb(122, 118, 118);
+    margin-left: 2%;
+}
+.moreIconForMobile{
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(0, 95, 116);
+    position: relative;
+    z-index: 3;
+    border-radius: 10rem;
+    margin: 1% 0% 0% 1%;
+    transition: 1.1s;
+    display: none;
+    
+    
+}
+
+.moreIconForMobile img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.moreTextHidenDiv{
+    height: 2.9rem;
+    width: 2rem;
+    background-color: rgb(0, 95, 116);
+    margin-top: -3.2rem;
+    margin-left: .6rem;
+    border-radius: 2rem;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.moreTextHidenDiv h3{
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: aliceblue;
+    display: none;
+    transition: 4s;
+}
+.moreIconForMobile:hover .moreTextHidenDiv{
+    width: 8rem;
+    
+}
+.moreIconForMobile:hover div h3{
+    display: block;
+}
+
+
+/* navbar start */
+.navbarMainDiv{
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(11, 11, 11);
+    box-shadow: 1rem 1rem 3rem 1rem rgb(46, 45, 45);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: fixed;
+    z-index: 20;
+}
+.forbpiIconDiv{
+    height: 3rem;
+    width: 3rem;
+    background-color: bisque;
+    overflow: hidden;
+    border-radius: 10rem;
+    margin-left: 2%;
+    box-shadow: .1rem.1rem 1rem .1rem rgb(0, 95, 116);
+}
+.forbpiIconDiv img{
+    height: 3rem;
+    width: 3rem;
+    
+}
+.navItemMainDIv{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.namitem_upperdiv{
+    height: 80%;
+    width: 7%;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.namitem_upperdiv3{
+    width: 18%;
+}
+.namitem_upperdiv4{
+    width: 10%;
+}
+.namitem_upperdiv a{
+    width: 100%;
+    height: 100%;
+}
+.navItemsDiv{
+    height: 100%;
+    width: 100%;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: rgb(131, 131, 131);
+    cursor: pointer;
+    border-radius: 1.8rem;
+
+}
+.navItemsDiv:hover{
+    border: .1rem solid rgb(57, 57, 57);
+    color: rgb(208, 208, 208);
+}
+/* about div start hover effect */
+.AboutMainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+    height: 30%;
+    height: auto;
+    background-color: rgb(6, 166, 166);
+    position: absolute;
+    position: fixed;
+    box-shadow: .2rem .2rem 2rem .2rem black;
+    border-radius: 1rem;
+    top: 5rem;
+    margin-left: 30%;
+    overflow: hidden;
+    opacity: 90%;
+    z-index: -1;
+    transition: z-index .4s ease-in;
+    transition: .2s;
+}
+.abooutItems_2div{
+    width: 49.5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about_1stDiv_items{
+    height: 3rem;
+    width: 20rem;
+    border-bottom: .1rem solid rgb(6, 166, 166);
+    border-top: .1rem solid rgb(6, 166, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-align: center;
+}
+.about_1stDiv_items:hover{
+    border-bottom: .1rem solid rgb(36, 35, 35);
+    border-top: .1rem solid rgb(36, 35, 35);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.none_effect{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: black;
+    border-bottom: .1rem solid rgb(3, 124, 124);
+}
+.none_effect:hover{
+    border-bottom: .1rem solid rgb(6, 166, 166);
+    border-top: .1rem solid ;
+    
+}
+/*Department hover start*/
+.department_mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 22%;
+    background-color: rgb(6, 166, 166);
+    position: absolute;
+    position: fixed;
+    box-shadow: .2rem .2rem 2rem .2rem black;
+    border-radius: 1rem;
+    top: 5rem;
+    margin-left: 37.5%;
+    border-radius: 1rem;
+    opacity: 90%;
+    z-index: -1;
+    transition: .2s;
+    overflow: hidden;
+    transition: z-index .4s ease-in;
+}
+.department_2div_flex{
+    width: 49.5%;
+
+    background-color: rgb(6, 166, 166);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.department_2div_flex a{
+    width: 100%;
+}
+.departments_items_listDiv{
+    width: 100%;
+    height: 3rem;
+    border-bottom: .1rem solid rgb(6, 166, 166);
+    border-top: .1rem solid rgb(6, 166, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    
+}
+.departments_items_listDiv:hover{
+    border-bottom: .1rem solid rgb(36, 35, 35);
+    border-top: .1rem solid rgb(36, 35, 35);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+/*  gallery div start  */
+.gallery_mainDiv{
+    position: absolute;
+    height: 10rem;
+    width: 15rem;
+    background-color: rgb(6, 166, 166);
+    top: 5rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: .2rem .2rem 2rem .2rem black;
+    overflow: hidden;
+    margin-left: 65%;
+    z-index: -1;
+    transition: z-index .4s ease-in;
+}
+.gallery_Items{
+    width: 100%;
+    height: 3.5rem;
+    margin-top: .1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    border-bottom: .1rem solid rgb(6, 166, 166);
+    border-top: .1rem solid rgb(6, 166, 166);
+
+}
+.closeGallery{
+    display: none;
+    
+    justify-content: center;
+    align-items: center;
+}
+.gallery_Items:hover{
+    border-bottom: .1rem solid rgb(36, 35, 35);
+    border-top: .1rem solid rgb(36, 35, 35);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Contact div statrt  */
+.contact_MAinDiv{
+    position: absolute;
+    height: 10rem;
+    width: 15rem;
+    background-color: rgb(6, 166, 166);
+    top: 5rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: .2rem .2rem 2rem .2rem black;
+    overflow: hidden;
+    margin-left: 72.5%;
+    z-index: -1;
+    transition: z-index .4s ease-in;
+}
+.Contact_itemsDiv{
+    width: 100%;
+    height: 3.5rem;
+    margin-top: .1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    border-bottom: .1rem solid rgb(6, 166, 166);
+    border-top: .1rem solid rgb(6, 166, 166);
+}
+
+/* admin panel login div start */
+.adminDiv_mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80rem;
+    top: 5rem;
+    position: absolute;
+    position: fixed;
+    z-index:-20; 
+    transition: 3s;
+    background-color: rgb(74, 74, 74);
+    
+
+}
+.admin_login_div{
+    height: 1%;
+    width: 1%;
+    background-color: rgb(0, 0, 0);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 3s;
+
+}
+.adminpanelLogin_maindiv_inputs{
+    width: 60%;
+    height: 30%;
+    border: .1rem solid rgb(35, 35, 35);
+    box-shadow: .3rem .3rem 2rem .3rem rgb(38, 38, 38);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.userName_Password_mainDiv{
+    width: 60%;
+    height: 20%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+}
+.userName_Password_mainDiv div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    color: rgb(73, 73, 73);
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.userName_Password_mainDiv input{
+    width: 75%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(49, 49, 49);
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    color: rgb(121, 121, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LoginButton{
+    width: 25%;
+    height: 20%;
+    background-color: rgb(0, 69, 69);
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(123, 123, 123);
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+}
+
+
+
+
+/* close contact div  */
+.closeContact{
+    display: none;
+}
+.Contact_itemsDiv:hover{
+    border-bottom: .1rem solid rgb(36, 35, 35);
+    border-top: .1rem solid rgb(36, 35, 35);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.closeDivClick{
+    height: 3rem;
+    width: 100%;
+    margin-top: 70%;
+    position: absolute;
+    margin-left: -20.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(35, 32, 32);
+    background-color: rgb(6, 166, 166);
+    border-top: .1rem solid rgb(4, 116, 116);
+    display: none;
+}
+.closeDivClick2_department{
+    height: 3rem;
+    width: 100%;
+    margin-top: 63%;
+    position: absolute;
+    margin-left: -21.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(35, 32, 32);
+    background-color: rgb(6, 166, 166);
+    border-top: .1rem solid rgb(4, 116, 116);
+    display: none;
+}
+    
+
+.moreiconMain_div{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: rgb(0, 95, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10rem;
+    margin-right: 1%;
+    transition: margin-left 2s ease-in;
+}
+.moreicon_nav{
+    height: 3.5rem;
+    width: 3.5rem;
+    cursor: pointer;
+    transition: 1s;
+}
+.moreicon_nav1{
+    display: none;
+}
+
+.slideimgfullwidth{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.sliderMAinDIv_blur{
+    width: 100%;
+    height: 35rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: colorChange 20s infinite;
+    
+}
+.sliderDiv{
+    height: 30rem;
+    width: 90%;
+    background-image: url(./images/bpi\ \ buildings\ 1\ .png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 2rem;    
+    animation: slideimg 20s infinite;
+}
+@keyframes slideimg {
+    0%{
+        background-image: url(./images/bpi\ \ buildings\ 1\ .png);
+    }
+    20%{
+        background-image: url(./images/bpi\ buildings\ 2\ .png);
+    }
+    40%{
+        background-image: url(./images/bpi\ public\ field.jpg);
+    }
+    60%{
+        background-image: url(./images/bpi\ \ river.jpg);
+    }
+    80%{
+        background-image: url(./images/mujib\ borsho\ 2020-21.png);
+    }
+    100%{
+        background-image: url(./images/bpi\ mosjid.jpg);
+    }
+}
+
+.bpilogoTExtDiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    opacity: 70%;
+    z-index: 1;
+}
+.logoTextFlex{
+    margin-left: 3rem;
+}
+.logoTextFlex img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10rem;
+}
+.logoTextFlex h2{
+    font-size: 4rem;
+    
+    animation: bpitextAnim 20s infinite;
+}
+@keyframes bpitextAnim {
+    0%{
+        color: red;
+    }
+    20%{
+        color: rgb(221, 221, 215);
+    }
+    40%{
+        color: rgb(3, 255, 255);
+    }
+    60%{
+        color: rgb(255, 255, 255);
+    }
+    80%{
+        color: aquamarine;
+    }
+    100%{
+        color: pink;
+
+    }
+}
+
+/*  new div start  */
+.news_mainDiv{
+    width: 100%; 
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.Main_News_div{
+    width: 65%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.shekhhasina_Leftdiv{
+    width: 85%;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .1rem solid red;
+    border-radius: 1rem;
+}
+.shekhhasina_Leftdiv img{
+    width: 98%;
+    height: 96%;
+    border-radius: 1rem;
+}
+/**/
+.noticeboardMaindiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+.noticeboard_center{
+    width: 85%;
+    height: 30rem;
+    background-color: rgb(222, 221, 221);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.noticeboard_center h4{
+    font-size: 1.5rem;
+    color: rgb(116, 116, 116);
+    margin-left: -68%;
+    margin-top: -1%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.noticeboard{
+    width: 80%;
+    height: 20rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.noticeitmes{
+    width: 90%;
+    height: 3rem;
+    margin: .3rem;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.noticeitmes img{
+    height: 2rem;
+    width: 2rem;
+    transform: rotate(90deg);
+    border-radius: 3rem;
+    transition: transform .3s ease-in;
+
+}
+.noticeitmes p{
+    font-size: 1.5rem;
+    margin-left: 6rem;
+    transition: margin-left .3s ease-in;
+}
+.noticeitmes p:hover a{
+    color: rgb(58, 58, 58);
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+.noticeitmes:hover img{
+    background-color: rgb(181, 181, 181);
+    padding: 1rem;
+    transform: rotate(-90deg);
+}
+.noticeitmes:hover p{
+    margin-left: 4rem;
+}
+/**/
+.kormokorta_kormocari_main_div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.kormokorta_kormocari_div_center{
+    width: 86%;
+    height: 100%;
+    border-radius: .5rem;
+    display: flex;
+}
+.kormokorta_kormocari_div_center_2flex_div{
+    width: 49%;
+    height: 100%;
+    margin: .5%;
+}
+.kormokorta_kormocari_div_items_div{
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(207, 207, 207);
+    margin-top: 1rem;
+    border-radius: .5rem;
+    transition: box-shadow .3s ease-in;
+    display: flex;
+    flex-direction: column;
+}
+.kormokorta_kormocari_div_items_div:hover{
+    box-shadow: .2rem .2rem 1rem rgb(68, 68, 68);
+
+}
+.VIDEOANDMAP_MAINDIV{
+    width: 100%;
+    height: 30rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+.VIdeo_and_map_center_div{
+    width: 85%;
+    height: 100%;
+    border-radius: .5rem;
+    
+}
+.VIdeo_and_map_center_div .vidomapText{
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(157, 157, 157);
+    display: flex;
+    align-items: center;
+    border-radius: .5rem .5rem 0rem 0rem;
+}
+.vidomapText p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.videoandmap_2DIV_main_div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-radius: 0rem 0rem .5rem .5rem;
+    background-color: rgb(202, 202, 202);
+}
+.videoand_map_DIV{
+    width: 49%;
+    height:100%;
+    margin: .3%;
+    border-radius: .5rem;
+    transition: box-shadow .3s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videoand_map_DIV:hover{
+    box-shadow:.3rem .3rem 1rem rgb(113, 113, 113);
+}
+.videoand_map_DIV .mapsDiv{
+    height: 97%;
+    width: 97%;
+    border-radius: .5rem;
+}
+
+
+
+
+
+
+
+
+/* common */
+.div5_headerDiv_main{
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(173, 173, 173);
+    display: flex;
+    align-items: center;
+    border-radius: .5rem .5rem 0rem 0rem;
+}
+.div5_headerDiv_main p{
+    margin-left: 5%;
+    font-size: 1.7rem;
+    color: rgb(55, 55, 55);
+}
+.commondiv_in5div_news_main{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+}
+.div5_icon_text_2div{
+    width: 30%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div5_icon_text_2div img{
+    height: 60%;
+    width: 95%;
+}
+.div5_icon_text_2div_right_div{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div5_inner_items_divs{
+    width: 95%;
+    height: 3rem;
+
+    margin: .4rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.div5_inner_items_divs img{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 20rem;
+    transform: rotate(90deg);
+    transition: transform .4s ease-in;
+    margin-left: .5rem;
+}
+.div5_inner_items_divs p{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.div5_inner_items_divs p:hover{
+    font-weight: 600;
+}
+.div5_inner_items_divs:hover img{
+    background-color:rgb(175, 175, 175);
+    transform: rotate(270deg);
+    padding: .2rem;
+}
+.div5_inner_items_divs:hover  p{
+    font-size: 1.6rem;
+}
+
+
+
+
+
+/*  gap   */
+.common_news_div{
+    width: 35%;
+    height: auto;
+    border-left: .2rem solid rgb(154, 154, 154);
+    display: flex;
+    flex-direction: column;
+}
+.principle_mainDiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.principleText{
+    width: 70%;
+    height: 3rem;
+    background-color: rgb(122, 122, 163);
+    font-size: 1.7rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem .5rem 0rem 0rem;
+}
+.principle_mainDiv img{
+    width: 70%;
+    height: 90%;
+}
+.principleName{
+    width: 70%;
+    height: 3rem;
+    background-color: rgb(122, 122, 163);
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0rem 0rem .5rem .5rem;
+}
+/**/
+.intereshebaMainDiv{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.intereshebaMainDiv a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.internalservice{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(171, 171, 171);
+    cursor: pointer;
+    border-radius: .5rem;
+}
+.intereshebaMainDiv h4{
+    font-size:2rem ;
+    color: rgb(255, 255, 255);
+    margin-left: 4%;
+    transition: color .4s ease-in;
+}
+.internalservice div {
+    height: 6rem;
+    width: 6rem;
+    margin-left: 20%;
+    background-color: white;
+    border-radius: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: .1rem .1rem .1rem .2rem red;
+    transition: box-shadow .4s ease-in;
+    background-color: green;
+}
+.intereshebaMainDiv img{
+    height: 5rem;
+    width: 5rem;
+    
+}
+.internalservice:hover div{
+    box-shadow: .1rem .1rem .1rem .2rem rgb(70, 70, 70);
+}
+.internalservice:hover h4{
+    color: rgb(70, 70, 70);
+}
+/**/
+.esheba_maindiv{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.esheba_maindiv a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eshema_div{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(128, 128, 234);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: .5rem;
+     cursor: pointer;
+}
+.eshema_div h4{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+    margin-left: 12%;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color .3s ease-out;
+}
+.eshema_div:hover h4{
+    color: rgb(60, 60, 60);
+}
+/**/
+.importantLink_mainDiv{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.important_link{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(152, 152, 186);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: .5rem;
+    border-bottom: .5rem solid black;
+}
+.important_link h4{
+    font-size: 1.7rem;
+    margin-left: 12%;
+}
+.importentdivItems_maindiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.importent_links_items_div{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(152, 152, 186);
+    display: flex;
+    flex-direction: column;
+    border-radius: .0rem 0rem .5rem .5rem;
+}
+.impoprtantlinks_div_items{
+    width: 95%;
+    height: 4rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: .6rem;
+    cursor: pointer;
+}
+.impoprtantlinks_div_items img{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 4rem;
+    margin-left: 1rem;
+    transition: background-color .3s ease-in;
+}
+
+.impoprtantlinks_div_items:hover img{
+    background-color: rgb(5, 176, 176);
+}
+.impoprtantlinks_div_items p{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+.impoprtantlinks_div_items:hover p{
+    font-size: 1.7rem;
+}
+.National_Anthem_mainDiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.national_anthem_div{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(164, 118, 206);
+    border-radius: .5rem;
+    margin-top: 4rem;
+    color: rgb(226, 226, 226);
+}
+.national_anthem_div h4{
+    font-size: 2rem;
+    margin-left: 12%;
+}
+
+.national_song_main_div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nationalsong{
+    width: 90%;
+}
+.jururi_hotLine{
+    width: 100%;
+    height: 4rem;
+
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jururi_hotLine div{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(115, 75, 153);
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jururi_hotLine div h4{
+    font-size: 1.8rem;
+    color: rgb(211, 211, 211);
+}
+.hotline_imag_div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotline_imag_div img{
+    width: 70%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

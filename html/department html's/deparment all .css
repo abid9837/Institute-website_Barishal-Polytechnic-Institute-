@@ -1,0 +1,153 @@
+.Common_department_maindiv{
+    width: 85%;
+    height: auto;
+    background-color: rgb(214, 214, 214);
+    border-radius: .5rem;
+    transition: box-shadow .3s ease-in-out;
+}
+.Common_department_maindiv:hover{
+    box-shadow: .3rem .3rem 1rem rgb(75, 75, 75) ;
+}
+
+.Common_intro_titel{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    color: rgb(82, 82, 82);
+    padding: 1rem;
+}
+.Common_intro_titel h4{
+    font-size: 1.7rem;
+    margin-left: 3%;
+}
+.Common_technology_div{
+    width: 100%;
+    height: 2.5rem;
+    color: rgb(82, 82, 82);
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Common_technology_div ::after{
+    display: block;
+    content: "";
+    height: .3rem;
+    width: 5rem;
+    background-color: rgb(82, 82, 82);
+    display: inline-block;
+    margin-left: .5rem;
+    border-radius: .5rem;
+}
+.Common_technology_div ::before{
+    display: block;
+    content: "";
+    height: .3rem;
+    width: 5rem;
+    background-color: rgb(82, 82, 82);
+    display: inline-block;
+    margin-right: .5rem;
+    border-radius: .5rem;
+
+}
+.common_department_p_div{
+    width: 100%;
+    height: auto;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+._common_deparntment_p_div_centerAnd_justify_p{
+    width: 95%;
+    height: auto;
+}
+._common_deparntment_p_div_centerAnd_justify_p p {
+    text-align: justify;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    padding: 2rem;
+    color: rgb(82, 82, 82);
+
+}
+
+.Common_department_bottom_section{
+    width: 85%;
+    background-color: rgb(214, 214, 214);
+    margin-top: 3rem;
+    border-radius: .5rem;
+    transition: box-shadow .3s ease-in-out;
+
+}
+.Common_department_bottom_section:hover{
+    box-shadow: .3rem .3rem 1rem rgb(75, 75, 75) ;
+
+}
+.Common_department_bottom_1{
+    width: 100%;
+    height: 2rem;
+    
+}
+.Common_department_bottom_1 h4{
+    font-size: 1.5rem;
+    color: rgb(82, 82, 82);
+    margin-left: 4%;
+}
+.bottom_department_List_1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.Department_Bottom_list_center_AND_flex{
+    width: 80%;
+    padding-bottom: 3rem;
+
+}
+.Department_Bottom_list_center_AND_flex p{
+    font-size: 1.5rem;
+    color: rgb(82, 82, 82);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
